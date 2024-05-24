@@ -6,6 +6,12 @@
     padding: 8rem 4rem;
 }
 
+@media (max-width: 767.98px) {
+    .scrt {
+        padding: 4rem 2rem;
+    }
+}
+
 .scrt-title {
     font-family: "Inter Tight", Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -38,6 +44,18 @@
 
 .col {
     width: 23.5%;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .col {
+        width: 45%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .col {
+        width: 100%;
+    }
 }
 
 .img-full {

@@ -1,3 +1,19 @@
+main {
+    margin: 8rem;
+}
+
+@media (max-width: 575.98px) {
+    main {
+        margin: 2rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+    main {
+        margin: 4rem;
+    }
+}
+
 /* Home Page */
 .intro-name {
     font-family: "P22 Mackinac Pro", 'Times New Roman', Times, serif;
@@ -24,6 +40,12 @@ p {
     border: solid 1px #e1e4e8;
     border-radius: 0.5rem;
     background-color: #fafaff;
+}
+
+@media (max-width: 1199.98px) {
+    .card {
+        width: 100%;
+    }
 }
 
 .one-line {
