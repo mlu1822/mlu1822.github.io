@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mlu - images</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/password.css">
+    <link rel="stylesheet" href="css/images.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a id="top" href="index.html">← •ᴗ•</a>
+        <div id="tabs" style="display: none;">
+            <a href="#nasa">NASA ↓</a>
+            <a href="#ea">Experience Aesthetics ↓</a>
+            <a href="#ncr">NCR ↓</a>
+            <a href="#n4">N-4 ↓</a>
+        </div>
+    </nav>
+
+    <section class="password-card" id="password-form">
+        <div>
+            <h2>Enter Code</h2>
+            <div>
+                <input type="password" id="password-input" placeholder="Code" onkeypress="handleKeyPress(event)">
+                <button onclick="checkPassword()">Submit</button>
+            </div>
+            <p id="error-message">nope •ᴗ•</p>
+        </div>
+    </section>
+
+    <section id="secret-content">
+        <div class="scrt">
+            <h1 class="scrt-title mb-64">Image Gallery</h1>
+
+            <!-- NASA -->
+            <div class="go-to-top">
+                <h2 class="scrt-subtitle mb-16" id="nasa">NASA</h2>
+                <a href="#top">Top ↑</a>
+            </div>
+            <div class="card mb-128">
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <!-- Experience Aesthetics -->
+            <div class="go-to-top">
+                <h2 class="scrt-subtitle mb-16" id="ea">Experience Aesthetics</h2>
+                <a href="#top">Top ↑</a>
+            </div>
+            <div class="card mb-128">
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <!-- NCR -->
+            <div class="go-to-top">
+                <h2 class="scrt-subtitle mb-16" id="ncr">NCR</h2>
+                <a href="#top">Top ↑</a>
+            </div>
+            <div class="card mb-128">
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+                <div class="col">
+                    <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <!-- N-4 -->
+            <div class="go-to-top">
+                <h2 class="scrt-subtitle mb-16" id="n4">N-4</h2>
+                <a href="#top">Top ↑</a>
+            </div>
+                <div class="card">
+                    <div class="col">
+                        <img class="img-full mb-8" src="https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <p>caption</p>
+                    </div>
+                    <div class="col">
+                        <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <p>caption</p>
+                    </div>
+                    <div class="col">
+                        <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <p>caption</p>
+                    </div>
+                    <div class="col">
+                        <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <p>caption</p>
+                    </div>
+                    <div class="col">
+                        <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <p>caption</p>
+                    </div>
+                    <div class="col">
+                        <img class="img-full mb-8" src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?q=80&w=1702&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                        <p>caption</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

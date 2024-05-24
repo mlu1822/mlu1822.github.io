@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.scrt {
+    padding: 8rem 4rem;
+}
+
+.scrt-title {
+    font-family: "Inter Tight", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.scrt-subtitle {
+    font-family: "Inter Tight", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.go-to-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    padding: 2rem;
+    border: solid 1px #e1e4e8;
+    border-radius: 0.5rem;
+    background-color: #fafaff;
+}
+
+.col {
+    width: 23.5%;
+}
+
+.img-full {
+    width: 100%;
+}
